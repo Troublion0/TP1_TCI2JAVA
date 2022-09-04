@@ -1,4 +1,4 @@
-Int nb1, 'b2;
+Int nb1, b2;
 Système.out.print("Entre ton nom :);
 String nom = clavier.nextLine();
 Système.out.println("Bonjour " + nom);
