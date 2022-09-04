@@ -1,0 +1,19 @@
+Int nb1, 'b2;
+Système.out.print("Entre ton nom :);
+String nom = clavier.nextLine();
+Système.out.println("Bonjour " + nom);
+Système.out.println(Quel âge as-tu ?");
+Int âge = clavier.nextInt();
+nb1 = (int) Math.round(Math.random()*10);
+nb2 = (int) Math.round(Math.random()*10);
+Système.out.print(/nCalcul : " + nb1 + " + " + nb2 + " = ");
+Int result = clavier.nextInt();
+
+If (result == (nb1 + nb2)){
+       Système.out.print("Bravo " + nom + " + tu as trouvé la bonne réponse !");
+}
+Else{ 
+      System.out.print("Faux " + nom + " Il fallait trouver " + (nb1 +nb2));
+}
+}
+}
